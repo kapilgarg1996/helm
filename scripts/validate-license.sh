@@ -16,6 +16,8 @@
 set -euo pipefail
 IFS=$'\n\t'
 
+echo "hello"
+
 find_files() {
   find . -not \( \
     \( \
